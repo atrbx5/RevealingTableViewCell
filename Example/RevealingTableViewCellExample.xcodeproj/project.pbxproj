@@ -14,6 +14,7 @@
 		103D62C91E98514B004A8D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103D62C71E98514B004A8D5E /* LaunchScreen.storyboard */; };
 		103D62DC1E98552B004A8D5E /* RevealingTableViewCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103D62DB1E985506004A8D5E /* RevealingTableViewCell.framework */; };
 		103D62DD1E98552B004A8D5E /* RevealingTableViewCell.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 103D62DB1E985506004A8D5E /* RevealingTableViewCell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7F3713621FA19DF000E37DC0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3713611FA19DF000E37DC0 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		103D62C81E98514B004A8D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		103D62CA1E98514B004A8D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		103D62D61E985506004A8D5E /* RevealingTableViewCell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RevealingTableViewCell.xcodeproj; path = ../RevealingTableViewCell.xcodeproj; sourceTree = "<group>"; };
+		7F3713611FA19DF000E37DC0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				103D62BE1E98514B004A8D5E /* AppDelegate.swift */,
 				103D62C01E98514B004A8D5E /* ViewController.swift */,
 				103D62C21E98514B004A8D5E /* Main.storyboard */,
+				7F3713611FA19DF000E37DC0 /* TableViewCell.swift */,
 				103D62C51E98514B004A8D5E /* Assets.xcassets */,
 				103D62C71E98514B004A8D5E /* LaunchScreen.storyboard */,
 				103D62CA1E98514B004A8D5E /* Info.plist */,
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3713621FA19DF000E37DC0 /* TableViewCell.swift in Sources */,
 				103D62C11E98514B004A8D5E /* ViewController.swift in Sources */,
 				103D62BF1E98514B004A8D5E /* AppDelegate.swift in Sources */,
 			);
